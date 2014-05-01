@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94FA2A9B19112D50001FBF79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA2A9A19112D50001FBF79 /* Foundation.framework */; };
+		94FA2A9D19112D50001FBF79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA2A9C19112D50001FBF79 /* CoreGraphics.framework */; };
+		94FA2A9F19112D50001FBF79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA2A9E19112D50001FBF79 /* UIKit.framework */; };
+		94FA2AA519112D50001FBF79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FA2AA319112D50001FBF79 /* InfoPlist.strings */; };
+		94FA2AA719112D50001FBF79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FA2AA619112D50001FBF79 /* main.m */; };
+		94FA2AAB19112D50001FBF79 /* DBMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FA2AAA19112D50001FBF79 /* DBMAppDelegate.m */; };
+		94FA2AAE19112D50001FBF79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FA2AAC19112D50001FBF79 /* Main.storyboard */; };
+		94FA2AB119112D50001FBF79 /* DBMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FA2AB019112D50001FBF79 /* DBMViewController.m */; };
+		94FA2AB319112D50001FBF79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FA2AB219112D50001FBF79 /* Images.xcassets */; };
+		94FA2ABA19112D51001FBF79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA2AB919112D51001FBF79 /* XCTest.framework */; };
+		94FA2ABB19112D51001FBF79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA2A9A19112D50001FBF79 /* Foundation.framework */; };
+		94FA2ABC19112D51001FBF79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA2A9E19112D50001FBF79 /* UIKit.framework */; };
+		94FA2AC419112D51001FBF79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94FA2AC219112D51001FBF79 /* InfoPlist.strings */; };
+		94FA2AC619112D51001FBF79 /* DataBaseMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FA2AC519112D51001FBF79 /* DataBaseMapperTests.m */; };
+		94FA2AD019112DCC001FBF79 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FA2ACF19112DCC001FBF79 /* libsqlite3.0.dylib */; };
+		94FA2AD419112ED1001FBF79 /* DBMDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FA2AD319112ED1001FBF79 /* DBMDataBaseManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94FA2ABD19112D51001FBF79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94FA2A8F19112D50001FBF79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94FA2A9619112D50001FBF79;
+			remoteInfo = DataBaseMapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94FA2A9719112D50001FBF79 /* DataBaseMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBaseMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FA2A9A19112D50001FBF79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94FA2A9C19112D50001FBF79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94FA2A9E19112D50001FBF79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94FA2AA219112D50001FBF79 /* DataBaseMapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataBaseMapper-Info.plist"; sourceTree = "<group>"; };
+		94FA2AA419112D50001FBF79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94FA2AA619112D50001FBF79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94FA2AA819112D50001FBF79 /* DataBaseMapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataBaseMapper-Prefix.pch"; sourceTree = "<group>"; };
+		94FA2AA919112D50001FBF79 /* DBMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBMAppDelegate.h; sourceTree = "<group>"; };
+		94FA2AAA19112D50001FBF79 /* DBMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBMAppDelegate.m; sourceTree = "<group>"; };
+		94FA2AAD19112D50001FBF79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94FA2AAF19112D50001FBF79 /* DBMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBMViewController.h; sourceTree = "<group>"; };
+		94FA2AB019112D50001FBF79 /* DBMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBMViewController.m; sourceTree = "<group>"; };
+		94FA2AB219112D50001FBF79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94FA2AB819112D51001FBF79 /* DataBaseMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBaseMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FA2AB919112D51001FBF79 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		94FA2AC119112D51001FBF79 /* DataBaseMapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataBaseMapperTests-Info.plist"; sourceTree = "<group>"; };
+		94FA2AC319112D51001FBF79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94FA2AC519112D51001FBF79 /* DataBaseMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBaseMapperTests.m; sourceTree = "<group>"; };
+		94FA2ACF19112DCC001FBF79 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		94FA2AD219112ED1001FBF79 /* DBMDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMDataBaseManager.h; sourceTree = "<group>"; };
+		94FA2AD319112ED1001FBF79 /* DBMDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMDataBaseManager.m; sourceTree = "<group>"; };
+		94FA2AD7191278AB001FBF79 /* DBMSQLiteDefinedValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBMSQLiteDefinedValues.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94FA2A9419112D50001FBF79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA2AD019112DCC001FBF79 /* libsqlite3.0.dylib in Frameworks */,
+				94FA2A9D19112D50001FBF79 /* CoreGraphics.framework in Frameworks */,
+				94FA2A9F19112D50001FBF79 /* UIKit.framework in Frameworks */,
+				94FA2A9B19112D50001FBF79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FA2AB519112D51001FBF79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA2ABA19112D51001FBF79 /* XCTest.framework in Frameworks */,
+				94FA2ABC19112D51001FBF79 /* UIKit.framework in Frameworks */,
+				94FA2ABB19112D51001FBF79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94FA2A8E19112D50001FBF79 = {
+			isa = PBXGroup;
+			children = (
+				94FA2AA019112D50001FBF79 /* DataBaseMapper */,
+				94FA2ABF19112D51001FBF79 /* DataBaseMapperTests */,
+				94FA2A9919112D50001FBF79 /* Frameworks */,
+				94FA2A9819112D50001FBF79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94FA2A9819112D50001FBF79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94FA2A9719112D50001FBF79 /* DataBaseMapper.app */,
+				94FA2AB819112D51001FBF79 /* DataBaseMapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94FA2A9919112D50001FBF79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94FA2ACF19112DCC001FBF79 /* libsqlite3.0.dylib */,
+				94FA2A9A19112D50001FBF79 /* Foundation.framework */,
+				94FA2A9C19112D50001FBF79 /* CoreGraphics.framework */,
+				94FA2A9E19112D50001FBF79 /* UIKit.framework */,
+				94FA2AB919112D51001FBF79 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94FA2AA019112D50001FBF79 /* DataBaseMapper */ = {
+			isa = PBXGroup;
+			children = (
+				94FA2AD619127859001FBF79 /* Constants */,
+				94FA2AD119112DEF001FBF79 /* Core */,
+				94FA2AA919112D50001FBF79 /* DBMAppDelegate.h */,
+				94FA2AAA19112D50001FBF79 /* DBMAppDelegate.m */,
+				94FA2AAC19112D50001FBF79 /* Main.storyboard */,
+				94FA2AAF19112D50001FBF79 /* DBMViewController.h */,
+				94FA2AB019112D50001FBF79 /* DBMViewController.m */,
+				94FA2AB219112D50001FBF79 /* Images.xcassets */,
+				94FA2AA119112D50001FBF79 /* Supporting Files */,
+			);
+			path = DataBaseMapper;
+			sourceTree = "<group>";
+		};
+		94FA2AA119112D50001FBF79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FA2AA219112D50001FBF79 /* DataBaseMapper-Info.plist */,
+				94FA2AA319112D50001FBF79 /* InfoPlist.strings */,
+				94FA2AA619112D50001FBF79 /* main.m */,
+				94FA2AA819112D50001FBF79 /* DataBaseMapper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94FA2ABF19112D51001FBF79 /* DataBaseMapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				94FA2AC519112D51001FBF79 /* DataBaseMapperTests.m */,
+				94FA2AC019112D51001FBF79 /* Supporting Files */,
+			);
+			path = DataBaseMapperTests;
+			sourceTree = "<group>";
+		};
+		94FA2AC019112D51001FBF79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FA2AC119112D51001FBF79 /* DataBaseMapperTests-Info.plist */,
+				94FA2AC219112D51001FBF79 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94FA2AD119112DEF001FBF79 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				94FA2AD219112ED1001FBF79 /* DBMDataBaseManager.h */,
+				94FA2AD319112ED1001FBF79 /* DBMDataBaseManager.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		94FA2AD619127859001FBF79 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				94FA2AD7191278AB001FBF79 /* DBMSQLiteDefinedValues.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94FA2A9619112D50001FBF79 /* DataBaseMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FA2AC919112D51001FBF79 /* Build configuration list for PBXNativeTarget "DataBaseMapper" */;
+			buildPhases = (
+				94FA2A9319112D50001FBF79 /* Sources */,
+				94FA2A9419112D50001FBF79 /* Frameworks */,
+				94FA2A9519112D50001FBF79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataBaseMapper;
+			productName = DataBaseMapper;
+			productReference = 94FA2A9719112D50001FBF79 /* DataBaseMapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94FA2AB719112D51001FBF79 /* DataBaseMapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94FA2ACC19112D51001FBF79 /* Build configuration list for PBXNativeTarget "DataBaseMapperTests" */;
+			buildPhases = (
+				94FA2AB419112D51001FBF79 /* Sources */,
+				94FA2AB519112D51001FBF79 /* Frameworks */,
+				94FA2AB619112D51001FBF79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94FA2ABE19112D51001FBF79 /* PBXTargetDependency */,
+			);
+			name = DataBaseMapperTests;
+			productName = DataBaseMapperTests;
+			productReference = 94FA2AB819112D51001FBF79 /* DataBaseMapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94FA2A8F19112D50001FBF79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DBM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Anton Golub";
+				TargetAttributes = {
+					94FA2AB719112D51001FBF79 = {
+						TestTargetID = 94FA2A9619112D50001FBF79;
+					};
+				};
+			};
+			buildConfigurationList = 94FA2A9219112D50001FBF79 /* Build configuration list for PBXProject "DataBaseMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94FA2A8E19112D50001FBF79;
+			productRefGroup = 94FA2A9819112D50001FBF79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94FA2A9619112D50001FBF79 /* DataBaseMapper */,
+				94FA2AB719112D51001FBF79 /* DataBaseMapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94FA2A9519112D50001FBF79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA2AB319112D50001FBF79 /* Images.xcassets in Resources */,
+				94FA2AA519112D50001FBF79 /* InfoPlist.strings in Resources */,
+				94FA2AAE19112D50001FBF79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FA2AB619112D51001FBF79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA2AC419112D51001FBF79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94FA2A9319112D50001FBF79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA2AAB19112D50001FBF79 /* DBMAppDelegate.m in Sources */,
+				94FA2AA719112D50001FBF79 /* main.m in Sources */,
+				94FA2AD419112ED1001FBF79 /* DBMDataBaseManager.m in Sources */,
+				94FA2AB119112D50001FBF79 /* DBMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FA2AB419112D51001FBF79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FA2AC619112D51001FBF79 /* DataBaseMapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94FA2ABE19112D51001FBF79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94FA2A9619112D50001FBF79 /* DataBaseMapper */;
+			targetProxy = 94FA2ABD19112D51001FBF79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94FA2AA319112D50001FBF79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FA2AA419112D50001FBF79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94FA2AAC19112D50001FBF79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FA2AAD19112D50001FBF79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94FA2AC219112D51001FBF79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94FA2AC319112D51001FBF79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94FA2AC719112D51001FBF79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94FA2AC819112D51001FBF79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94FA2ACA19112D51001FBF79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataBaseMapper/DataBaseMapper-Prefix.pch";
+				INFOPLIST_FILE = "DataBaseMapper/DataBaseMapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94FA2ACB19112D51001FBF79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataBaseMapper/DataBaseMapper-Prefix.pch";
+				INFOPLIST_FILE = "DataBaseMapper/DataBaseMapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94FA2ACD19112D51001FBF79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataBaseMapper.app/DataBaseMapper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataBaseMapper/DataBaseMapper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DataBaseMapperTests/DataBaseMapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		94FA2ACE19112D51001FBF79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DataBaseMapper.app/DataBaseMapper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataBaseMapper/DataBaseMapper-Prefix.pch";
+				INFOPLIST_FILE = "DataBaseMapperTests/DataBaseMapperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94FA2A9219112D50001FBF79 /* Build configuration list for PBXProject "DataBaseMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FA2AC719112D51001FBF79 /* Debug */,
+				94FA2AC819112D51001FBF79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94FA2AC919112D51001FBF79 /* Build configuration list for PBXNativeTarget "DataBaseMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FA2ACA19112D51001FBF79 /* Debug */,
+				94FA2ACB19112D51001FBF79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94FA2ACC19112D51001FBF79 /* Build configuration list for PBXNativeTarget "DataBaseMapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94FA2ACD19112D51001FBF79 /* Debug */,
+				94FA2ACE19112D51001FBF79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94FA2A8F19112D50001FBF79 /* Project object */;
+}
